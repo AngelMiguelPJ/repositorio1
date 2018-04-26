@@ -13,6 +13,6 @@ for a in palabraslist:
     OcurrenciaPalabras.append(palabraslist.count(a))
 
 # uzamos str para convertir los objetos en cadenas,
-# el lista para crear una lista y el zip para que coincidan los  2 arreglos
+# el lista para crear una lista y el zip para que coincidan los  2 arreglo
 lista = str(list(zip(palabraslist, OcurrenciaPalabras)))
 print(lista)
